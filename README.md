@@ -219,7 +219,10 @@ This configuration is internal to the LB server, and these domain names will not
 
 ### Conclusion
 
-The `mod_proxy_balancer` module in Apache HTTP Server offers robust load balancing capabilities, including support for sticky sessions, health checks, and multiple load balancing algorithms. Properly configuring these features ensures that web applications achieve high availability, scalability, and reliability.
+The `mod_proxy_balancer` module in Apache HTTP Server offers robust load balancing capabilities, including support for sticky sessions, health checks, and multiple load balancing algorithms.
+
+<img width="600" alt="architecture-diag" src="https://github.com/user-attachments/assets/4e8cf47c-7187-4083-afda-ba7cc2914275">
+
 ### Importance of the Project and the Need for a Load Balancer
 
 In any web application, particularly in a multi-server environment like the "Tooling Website" project, managing traffic distribution effectively is crucial. This project, which involves setting up an Apache Load Balancer, addresses several key challenges and needs:
